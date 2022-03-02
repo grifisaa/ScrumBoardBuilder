@@ -6,7 +6,7 @@ Supports use cases and user stories.
 
 Uses Github api to sync with Github Projects.
 
-## [Wiki Link for Additional Information](https://app.gitbook.com/o/8f6PgLpPTzfMrZJ7FeUH/s/8jecZomwPHQthlC4YPaJ/)
+## [Wiki Link for Additional Information](https://braydonspaulding1.gitbook.io/copy-of-cs3321-team-4-project-wiki/)
 
 # Installation
 
