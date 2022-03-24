@@ -1,5 +1,5 @@
 <template>
-  <Title words="ScrumBoardBBuilder" style="border: black"></Title>
+  <Title words="ScrumBoardBuilder" style="border: black"></Title>
   <Button title="Add task" align="left" ></Button>
   <Button title="Split user story" align="left" ></Button>
   <Textbox></Textbox>
