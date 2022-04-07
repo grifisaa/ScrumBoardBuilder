@@ -32,17 +32,19 @@
   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<VBox alignment="CENTER" maxHeight="1000" maxWidth="1000" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="615.0" prefWidth="900.0" style="-fx-background-color: GRAY;" VBox.vgrow="ALWAYS">
+        <AnchorPane maxHeight="1000.0" maxWidth="1000.0" prefHeight="1000.0" prefWidth="1000.0" style="-fx-background-color: GRAY;" VBox.vgrow="ALWAYS">
             <children>
-                <GridPane alignment="TOP_RIGHT" layoutX="150.0" layoutY="113.0" prefHeight="337.0" prefWidth="620.0" style="-fx-background-color: yellow;" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="113.0">
+                <GridPane alignment="TOP_RIGHT" layoutX="109.0" layoutY="104.0" prefHeight="373.0" prefWidth="677.0" style="-fx-background-color: yellow;" AnchorPane.leftAnchor="109.0" AnchorPane.topAnchor="104.0">
                     <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -55,22 +57,26 @@
                         <RowConstraints maxHeight="253.0" minHeight="10.0" prefHeight="107.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                     <children>
-                        <TextArea prefHeight="80.0" prefWidth="155.0" GridPane.rowIndex="2" />
-                        <TextArea prefHeight="108.0" prefWidth="155.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                        <TextArea prefHeight="156.0" prefWidth="147.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-                        <TextArea prefHeight="114.0" prefWidth="155.0" GridPane.rowIndex="1" />
-                        <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                        <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                        <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-                        <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="91.0" text="To-Do" />
-                        <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="99.0" text="Builld" GridPane.columnIndex="1" />
-                        <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="90.0" text="Test" GridPane.columnIndex="2" />
-                        <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="94.0" text="Done" GridPane.columnIndex="3" />
-                        <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3" />
-                        <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                        <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-                        <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                        <TextArea prefHeight="80.0" prefWidth="155.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <TextArea prefHeight="108.0" prefWidth="155.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <TextArea prefHeight="200.0" prefWidth="200.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                        <TextArea prefHeight="156.0" prefWidth="147.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                        <TextArea prefHeight="114.0" prefWidth="155.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextArea prefHeight="200.0" prefWidth="200.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <TextArea prefHeight="200.0" prefWidth="200.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                        <TextArea prefHeight="200.0" prefWidth="200.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                        <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="91.0" text="To-Do" GridPane.columnIndex="1" />
+                        <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="99.0" text="Builld" GridPane.columnIndex="2" />
+                        <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="90.0" text="Test" GridPane.columnIndex="3" />
+                        <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="94.0" text="Done" GridPane.columnIndex="4" />
+                        <TextArea prefHeight="200.0" prefWidth="200.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextArea prefHeight="200.0" prefWidth="200.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <TextArea prefHeight="200.0" prefWidth="200.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                        <TextArea prefHeight="200.0" prefWidth="200.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <TextArea prefHeight="200.0" prefWidth="200.0" text="Construct a new project on GitHub populated with a standard set of Scrum Columns&#10;" wrapText="true" GridPane.rowIndex="1" />
+                  <TextArea prefHeight="200.0" prefWidth="200.0" text="Construct a new project on GitHub populated with a standard set of Scrum Columns&#10;" wrapText="true" GridPane.rowIndex="2" />
+                  <TextArea prefHeight="200.0" prefWidth="200.0" text=" import javafx.stage.*;&#10;import javafx.application.*;&#10;import javafx.scene.control.*;&#10;import javafx.scene.*;&#10;&#10;public class Love extends Application {&#10; public void start(Stage stage) throws Exception {&#10;  Scene scene = new Scene(new Label(&quot;hello, world&quot;));&#10;  scene.getStylesheets().add(&quot;love.css&quot;);&#10;  stage.setScene(scene);&#10;  stage.show();&#10; }&#10;}" wrapText="true" GridPane.rowIndex="3" />
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="140.0" text="User Story" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
                     </children>
                     <effect>
                         <ColorAdjust brightness="-0.38" contrast="1.0" />
@@ -81,12 +87,15 @@
                         <Font name="Cooper Black" size="38.0" />
                     </font>
                 </Label>
-            <Button layoutX="787.0" layoutY="241.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="99.0" text="ADD COLUMN" textOverrun="CENTER_ELLIPSIS">
+            <Button layoutX="787.0" layoutY="105.0" mnemonicParsing="false" prefHeight="373.0" prefWidth="99.0" text="ADD COLUMN" textAlignment="RIGHT" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true" AnchorPane.leftAnchor="787.0">
                <font>
                   <Font name="Cooper Black" size="11.0" />
                </font>
+               <effect>
+                  <Glow level="0.0" />
+               </effect>
             </Button>
-            <Button layoutX="411.0" layoutY="474.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="99.0" text="ADD ROWS" textOverrun="CENTER_ELLIPSIS">
+            <Button layoutX="109.0" layoutY="477.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="677.0" text="ADD ROWS" textOverrun="CENTER_ELLIPSIS">
                <font>
                   <Font name="Cooper Black" size="11.0" />
                </font>
@@ -95,6 +104,9 @@
             <effect>
                 <Blend />
             </effect>
+         <cursor>
+            <Cursor fx:constant="MOVE" />
+         </cursor>
         </AnchorPane>
     </children>
 </VBox>
