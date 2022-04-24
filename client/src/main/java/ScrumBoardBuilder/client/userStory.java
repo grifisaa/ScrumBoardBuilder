@@ -1,4 +1,4 @@
-package ScrumBoardBuilder.library;
+package ScrumBoardBuilder.client;
 
 import lombok.Getter;
 import lombok.Setter;
