@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-    implementation project(":library")
+    implementation project(":client")
 
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
