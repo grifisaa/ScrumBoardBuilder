@@ -1,36 +1,41 @@
 <template>
   <h3>Project Backlog</h3>
-  <div class="insideDiv">
-    <h4>temp1</h4>
-    <h5>description1</h5>
-  </div>
-  <div class="insideDiv">
-    <h4>temp2</h4>
-    <h5>description2</h5>
+  <div class="insidePain">
+    <div class="insideDiv" :key="userstory.title" v-for="userstory in userStory">
+      <UserstoryObject @delete-userstory="$emit('delete-userstory', userstory.id)" :userstory="userstory" />
+    </div>
   </div>
 
 
 </template>
 
 <script>
+import UserstoryObject from "./UserstoryObject";
 
 export default {
   name: "paneProjectBacklog",
   props: {
-    UserStory: Array,
+    userStory: Array,
+
   },
   components: {
+    UserstoryObject
   },
+  emits: ['delete-userstory'],
 
 }
 </script>
 
 <style scoped>
 .insideDiv {
-  border: 1px solid black;
   margin: 5px;
   text-align: center;
   min-width: 96%;
+}
+.insidePain {
+  overflow-y: scroll;
+  min-height: 500px;
+  max-height: 500px;
 }
 h4 {
   text-align: left;

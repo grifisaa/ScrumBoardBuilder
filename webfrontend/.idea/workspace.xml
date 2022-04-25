@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20ba1739-b0ee-4023-960a-bb47a707a0b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/Button.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/Textbox.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/Title.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneDone.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneDone.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneInProgress.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneInProgress.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneProjectBacklog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneProjectBacklog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneReady.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneReady.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneSprintBacklog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneSprintBacklog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneTest.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneTest.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/userStory.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/UserstoryObject.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +83,8 @@
       <workItem from="1648852397313" duration="1367000" />
       <workItem from="1649269745727" duration="1436000" />
       <workItem from="1649548579077" duration="9473000" />
-      <workItem from="1649616499089" duration="20586000" />
+      <workItem from="1649616499089" duration="21044000" />
+      <workItem from="1650832722150" duration="16090000" />
     </task>
     <servers />
   </component>
