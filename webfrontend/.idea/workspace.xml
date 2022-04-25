@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20ba1739-b0ee-4023-960a-bb47a707a0b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneDone.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneDone.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneInProgress.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneInProgress.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneProjectBacklog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneProjectBacklog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneReady.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneReady.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneSprintBacklog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneSprintBacklog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneTest.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/paneTest.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/userStory.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webfrontend/frontend/src/components/UserstoryObject.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27DG4dbF2tyhxrQT5d3BZ1oeSU1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library/src/main/java/ScrumBoardBuilder/library/ScrumBoard.java" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20ba1739-b0ee-4023-960a-bb47a707a0b9" name="Changes" comment="" />
+      <created>1648847057626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648847057626</updated>
+      <workItem from="1648847066934" duration="8000" />
+      <workItem from="1648847108474" duration="4000" />
+      <workItem from="1648847860600" duration="1000" />
+      <workItem from="1648847976684" duration="337000" />
+      <workItem from="1648852397313" duration="1367000" />
+      <workItem from="1649269745727" duration="1436000" />
+      <workItem from="1649548579077" duration="9473000" />
+      <workItem from="1649616499089" duration="21044000" />
+      <workItem from="1650832722150" duration="16090000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
