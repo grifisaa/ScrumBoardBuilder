@@ -53,7 +53,7 @@ public class HelloApplication extends Application {
 
 
 
-        stage.setTitle("Hello World");
+        stage.setTitle("Scrum Board Builder");
         stage.setScene(scene);
         stage.show();
     }
