@@ -1,4 +1,13 @@
 package com.example.scrumtool;
+//CS 3321 - 01, 02 / INFO 3307 - 01, 02: Intro to Software Engineering (IGriffith)
+//Team 04- Project
+//ScrumTool
+//Client front end -Sushan,
+// Web front end - Grant,
+// Server- Coby
+
+
+
 
 
 
@@ -23,7 +32,7 @@ import javafx.scene.text.Text;
 public class HelloController implements Initializable {
 
 
-
+//importing from the mainBoard.fxml file
     @FXML
     private TextField txtField1;
     @FXML
@@ -64,20 +73,21 @@ public class HelloController implements Initializable {
 
 
 
-
+//Credit
 //https://stackoverflow.com/questions/44731969/create-multiple-textfields-with-a-delete-button-using-javafx-with-fxml
     @FXML
     public void AddTextField(ActionEvent event) {
-        final HBox parent = new HBox(3.0); // 5.0 is the distance between the field and the button; hbox is the parent of both
+        //Here 3.0 is distance between field and button where Hbox is parent
+        final HBox parent = new HBox(3.0);
 
         TextField field = new TextField();
-
+        //Changef the textfield font as comic sans bold and size as 12
         field.setFont(Font.font("Comic Sans MS", FontWeight.BOLD, 12));
-//        field.setMaxHeight(60);
-//        field.setBackground(Color.BLUE);
+        //field boarder= black
         field.setStyle("-fx-Border-color: Black");
+        //field boarder= black
         field.setStyle("-fx-background-color: Grey");
-
+        // Set dimension (52*90)
         field.setPrefHeight(45);
         field.setMaxWidth(90);
         field.setPickOnBounds(false);
@@ -86,16 +96,20 @@ public class HelloController implements Initializable {
 
 
 
-
-        Button button = new Button("X"); // the button to "close" the textfield
+        //Red button to close the generated
+        //scrum card previously generated clicking '+" button
+        Button button = new Button("X");
         button.setStyle("-fx-background-color: red");
-        button.setOnAction((e) -> pane_main_grid.getChildren().remove(parent)); // button click removes the hbox
-        button.setPrefSize(5, 10); // only if you're using a custom font / styling
-        HBox.setHgrow(field, Priority.ALWAYS); // field should always grow
-        HBox.setHgrow(button, Priority.ALWAYS); // button should never grow
-
-        parent.getChildren().setAll(field, button); // add the textfield and the button to the hbox
-        pane_main_grid.getChildren().add(parent); // add the hbox to your main grid
+        // button click removes the hbox
+        button.setOnAction((e) -> pane_main_grid.getChildren().remove(parent));
+        button.setPrefSize(5, 10);
+        //field and button always grows
+        HBox.setHgrow(field, Priority.ALWAYS);
+        HBox.setHgrow(button, Priority.ALWAYS);
+        // add the textfield and the button to the hbox
+        parent.getChildren().setAll(field, button);
+        // add the hbox to your main grid
+        pane_main_grid.getChildren().add(parent);
 
         /////////////////////Grid Extension////////////////////////////////////////
         Label lbladdgrid = new Label("more");
@@ -103,14 +117,13 @@ public class HelloController implements Initializable {
         GridPane gpTable = new GridPane();
         gpTable.add(lbladdgrid,1,2);
     }
-
+    //makes the object(Scrum card) draggable
     DraggableMaker draggableMaker = new DraggableMaker();
 
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
-//        AddTextField();
+        //Makes Default scrumcard f=draggable
         draggableMaker.makeDraggable(txtField1);
         draggableMaker.makeDraggable(txtField2);
         draggableMaker.makeDraggable(txtField3);
@@ -121,9 +134,8 @@ public class HelloController implements Initializable {
         draggableMaker.makeDraggable(txtField8);
         draggableMaker.makeDraggable(txtField9);
         draggableMaker.makeDraggable(txtField10);
-//        draggableMaker.makeDraggable(pane_main_grid.getChildren().setAll(field.));
 
-
+        //Makes the whole grid draggable(NOT THE INDIVIDUAL ADDED SCRUM CARD!!!)
         draggableMaker.makeDraggable(pane_main_grid);
 
 
